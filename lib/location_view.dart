@@ -27,7 +27,7 @@ class _LocationViewState extends State<LocationView> {
     });
     try {
       const url = 'https://maps.googleapis.com/maps/api/directions/json?';
-      const googleKey = 'AIzaSyAgowKYemdFy71fDoiRliDknKvEjByqVq8';
+      const googleKey = 'xxxxxxxxxxxx';
       final res = await http.get(
         Uri.parse(
             '${url}origin=${from.latitude},${from.longitude}&destination=${to.latitude},${to.longitude}&key=$googleKey'),
